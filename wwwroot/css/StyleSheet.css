@@ -1,0 +1,83 @@
+﻿#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: lightblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 06);
+    width: 1500px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #navbar li {
+        list-style: none;
+        padding: 0 20px;
+    }
+
+        #navbar li a {
+            text-decoration: none;
+            font-size: large;
+            font-weight: 600;
+            color: black;
+        }
+
+            #navbar li a:hover {
+                color: blueviolet;
+            }
+
+#One {
+    background-image: url("/imgs/background.jpg");
+    height: 600px;
+    width: 1500px;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#section1 {
+    background-color: lightgrey;
+    length: 200px;
+    width: 1000px;
+}
+
+.logo {
+    length: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 0px;
+    padding-left: -10px;
+}
+
+#Shop {
+    color: white;
+    background-color: Red;
+    length: 870px;
+    width: 120px;
+    font-size: large;
+    border-radius: 25px;
+}
+
+    #Shop:hover {
+        border-color: white;
+        background-color: transparent;
+        transition: scale(2.1s);
+    }
+
+h2:hover {
+    color: Yellow;
+}
+
+span {
+    color: Red;
+}
